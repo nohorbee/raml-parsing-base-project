@@ -20,6 +20,7 @@ I noticed that many developers have doubts at the moment of starting a project. 
 ## Some explanation
 
 - `src/app.js`:
+  
   ```
   var ramlParser = require('raml-parser');
   ramlParser.loadFile("./examples/example.raml").then(function(data) {
