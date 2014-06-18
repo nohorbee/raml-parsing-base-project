@@ -1,0 +1,25 @@
+{
+  "name": "raml-parsing-base-project",
+  "description": "NodeJS Base and example application using the RAML parser.",
+  "version": "0.0.1",
+  "author": "nohorbee",
+  "private": true,
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "https://github.com/nohorbee/raml-parsing-base-project/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.8.1",
+    "load-grunt-tasks": "~0.2.1",
+    "mocha": "1.15.1",
+    "should": "2.1.1",
+    "supertest": "~0.9.0"
+  },
+  "dependencies": {
+    "raml-parser": "~0.8.7"
+  }
+}
